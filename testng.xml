@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="annotationDemo">
+
+        <classes>
+            <class name="com.group.annotations.Annotation"/>
+            <class name="com.group.annotations.Annotation2"/>
+            <class name="com.group.annotations.Annotation3"/>
+            <class name="com.group.annotations.Annotation4"/>
+            <class name="com.group.annotations.Annotation5"/>
+        </classes>
+    </test>
+</suite>
+
+
+        <!--            <class name="com.group.prioritizing_disabling.Prioritizing"/>-->
+        <!--            <class name="com.group.prioritizing_disabling.Disabling"/>-->
+
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <include name="cat"/>-->
+        <!--                <include name="dog"/>-->
+        <!--                <exclude name="cat"/>-->
+        <!--            </run>-->
+        <!--        </groups>-->
+
+        <!--<class name="com.group.grouping.Grouping"/>-->
+
+        <!--<parameter name="browser" value="edge"/>-->
+        <!--<parameter name="url" value="https://fap.fpt.edu.vn"/>-->
+
+        <!--<class name="com.group.parameters.Parameter"/>-->
+
+<!--        parallel="methods" thread-count="2"-->
+<!--<class name="com.group.parallels.Parallel"/>-->
